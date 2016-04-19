@@ -1,3 +1,17 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int getPositionFirstVowel(string wordInput);
+int main()
+{
+    string wordInput = "";
+    int posFirstVowel = 0;
+    
+    cout << "enter word: ";
+    cin >> wordInput;
+    posFirstVowel = getPositionFirstVowel(wordInput);
+    cout << "first vowel is at: " << posFirstVowel;
+}
 int getPositionFirstVowel(string wordInput)
 {
     string vowels = "aAeEiIoOuU";
