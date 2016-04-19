@@ -1,3 +1,5 @@
+//function returns subscript of first vowel in a string, or -1 if there is no vowel
+//main function is just an example, can be cleared.
 #include <iostream>
 #include <string>
 using namespace std;
